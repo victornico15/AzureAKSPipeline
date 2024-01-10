@@ -1,7 +1,5 @@
-terraform/MODULES/VM/LinuxVM/.terraform.lock.hcl
-terraform/MODULES/VM/LinuxVM/terraform.tfstate
-terraform/MODULES/VM/LinuxVM/terraform.tfstate.backup
-terraform/MODULES/VM/LinuxVM/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.86.0/linux_amd64/terraform-provider-azurerm_v3.86.0_x5
-terraform/MODULES/VM/LinuxVM/.terraform
-terraform/MODULES/VM/LinuxVM/stage.tfvars
-terraform/MODULES/VM/LinuxVM/stage.tfvars
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
