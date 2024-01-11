@@ -1,4 +1,5 @@
 module "vnet" {
+  # source   = "git::ssh://git@stash.matera.com:7999/trm/azure-vpn.git?ref=master"
   source  = "Azure/vnet/azurerm"
   version = "3.0.0" # Substitua com a versão mais recente do módulo
 
